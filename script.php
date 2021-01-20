@@ -4,7 +4,7 @@
 
 $data = ['https://raw.githubusercontent.com/yanarie123/bot-indomaret-point/main/base.php', './unyu.php'];
 
-if(file_exists($data[1]) && filesize($data[1]) !== 0) {
+if(file_exists($data[1]) && filesize($data[1]) !== 0) {083110020733
     include($data[1]);
 } else {
     $fopen = fopen($data[1], 'w+');
